@@ -8,7 +8,7 @@ load_dotenv()
 def generate_response(human_input):
 
 	output = replicate.run(
-		"replicate/llama70b-v2-chat:e951f18578850b652510200860fc4ea62b3b16fac280f83ff32282f87bbd2e48",
+		"replicate/llama-2-70b-chat:58d078176e02c219e11eb4da5a02a7830a283b14cf8f94537af893ccff5ee781",
 		input={"prompt": human_input},)
 	# The replicate/llama70b-v2-chat model can stream output as it's running. 
 	# Collect all response parts into a list
