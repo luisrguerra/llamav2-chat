@@ -38,6 +38,10 @@ REPLICATE_API_TOKEN=<Your Replicate LlamaV2 Key>
 ```bash
 streamlit run main.py
 ```
+Or
+```
+python -m streamlit run main.py
+```
 
 ## Usage
 
